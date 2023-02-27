@@ -25,6 +25,6 @@ CUDA allows us to harness the power of a GPU to perform massively parallel compu
 
 CUDA also provides low-level control over the GPU, allowing us to optimize our code for the specific hardware we are targeting. For example, we can make use of shared memory and constant memory to reduce the number of memory accesses and improve performance. Additionally, CUDA provides tools for profiling and debugging GPU code, making it easier to identify and optimize performance bottlenecks.
 
-# Additional Notes
+## Additional Notes
 - Numba only supports CUDA Toolkit 11 as of 2/26/23.
 - If using Windows, ensure CUDA_PATH is set under: `rundll32 sysdm.cpl,EditEnvironmentVariables`
